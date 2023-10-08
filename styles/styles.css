@@ -50,14 +50,23 @@ h2{
     height: 300px;
     padding: 20px 0px 20px 20px ;
 }
-/*.cajas{
-    height: 250px;
-    width: 500px;
-    border: 2px solid #CE29A0;
+.list-requisitos{
+        width: 100%; 
+        max-width: 150px; 
+        font-size: 20px; 
+        padding: 6px;
+        
+}
+.cajas{
+    height: 100%;
+    width: auto;
+    border: 2px solid #9754df;
+    border-radius: 10px;
     padding: 10px;
     margin: 20px;
     overflow: hidden;
-}*/
+    background-color: #bd8af4;
+}
 .font-size-menu{
     font-size: 35px;
 } 
@@ -75,12 +84,16 @@ h2{
     }
 .iframe-size {
     width: 100%;
-    height: 40vh;
+    height: 400px;
+}
+.iframe-size-top10{
+    width: 100%;
+    height: 350px;
 }
 
 @media (max-width: 992px) {
     .nav-padding{
         margin-bottom: 35px; 
     }
-    }      
     
+}    

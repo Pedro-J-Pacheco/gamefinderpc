@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Media/icono-paginas.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Un Juego para ti</title>
 </head>
 <body class="fondo">
     <header>
-        <a href="../index.html">
-            <img class="logo" src="../Media/Logo_sitio.png" alt="no se encuentra la imagen">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="./top10.html">Top 10</a></li>
-                <li><a href="./juegos-gratis.html">Juegos Gratis</a></li>
-                <li><a href="#">Un juego para ti</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-            </ul>
-        </nav>   
+         <!--logo de la pagina-->
+         <div class="container-fluid pb-5 ">
+            <div class="col-md-12 text-center">
+                <a href="../index.html">
+                    <img  class="logo" src="../media/Logo_sitio.png" alt="no se encuentra la imagen ">
+                </a>
+            </div>
+        </div>
+        <!--menu navegable entre paginas html, responsive con bootstrap --> 
+        <div class="container-fluid pb-5">
+            <nav class="justify-content-center"> 
+                <ul class="nav text-center">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                        <a class="font-size-menu box-main-menu" href="./top10.html">Top 10</a><!--trabajar clase a para el estilo de las cajas-->
+                    </li>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
+                        <a class="font-size-menu box-main-menu" href="./juegos-gratis.html">Juegos Gratis</a>
+                    </li>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                        <a class="font-size-menu box-main-menu" href="#">Un juego para ti</a>
+                    </li>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                        <a class="font-size-menu box-main-menu" href="./novedades.html">Novedades</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>   
     </header>
         <h1>Tenemos el juego para ti !</h1>
         <h2>Vamos a recomendarte un juego según tus elecciones, así que responde el formulario y te daremos un juego que muy posiblemente te va gustar.</h2>
@@ -90,5 +107,6 @@
     <footer>
         <h4>Todo los derechos reservados 2023©</h4>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

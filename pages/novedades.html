@@ -13,17 +13,33 @@
 </head>
 <body class="fondo">
     <header>
-        <a href="../index.html">
-            <img class="logo" src="../Media/Logo_sitio.png" alt="no se encuentra la imagen">
-        </a>
-        <nav>
-            <ul> <!--menu navegable entre paginas html-->
-                <li><a href="./top10.html">Top 10</a></li>
-                <li><a href="./juegos-gratis.html">Juegos Gratis</a></li>
-                <li><a href="./juego-para-ti.html">Un juego para ti</a></li>
-                <li><a href="#">Novedades</a></li>
-            </ul>
-        </nav> 
+        <!--logo de la pagina-->
+        <div class="container-fluid pb-5 ">
+            <div class="col-md-12 text-center">
+                <a href="../index.html">
+                    <img  class="logo" src="../media/Logo_sitio.png" alt="no se encuentra la imagen ">
+                </a>
+            </div>
+        </div>
+        <!--menu navegable entre paginas html, responsive con bootstrap --> 
+        <div class="container-fluid pb-5">
+            <nav class="justify-content-center"> 
+                <ul class="nav text-center">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                        <a class="font-size-menu box-main-menu" href="./top10.html">Top 10</a><!--trabajar clase a para el estilo de las cajas-->
+                    </li>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
+                        <a class="font-size-menu box-main-menu" href="./juegos-gratis.html">Juegos Gratis</a>
+                    </li>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                        <a class="font-size-menu box-main-menu" href="./juego-para-ti.html">Un juego para ti</a>
+                    </li>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                        <a class="font-size-menu box-main-menu" href="#">Novedades</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>   
         <!--un menu despegable para seleccionar entre noticias y novedades en la misma pagina-->
         <label>Categoria</label>
         <select >
@@ -35,12 +51,12 @@
     <main>
         <article>
             <h3><a href="https://vandal.elespanol.com/noticia/1350765239/el-director-de-baldurs-gate-3-revela-su-secreto-para-hacer-un-buen-juego-de-rol/">El director de Baldur's Gate 3 revela su secreto para hacer un buen juego de rol</a></h3>
-            <img class="imagen-noticia" src="../Media/noticias_1.jpg" alt="no se encuentra la imagen ">
+            <img class="imagen-noticia" src="../media/noticias_1.jpg" alt="no se encuentra la imagen ">
             <h3 class="cajas"> Swen Vincke, director de Baldur's Gate 3 y jefe de Larian Studios, ha revelado parte del proceso creativo que se tiene que realizar para llevar a cabo un juego de rol con muchas ramificaciones.</h4>
         </article>
         <article>
             <h3><a href="https://vandal.elespanol.com/noticia/1350765378/assassins-creed-mirage-levanta-revuelo-con-focus-su-habilidad-mas-polemica/">Assassin's Creed Mirage levanta revuelo con Focus, su habilidad más polémica</a></h3>
-            <img class="imagen-noticia" src="../Media/noticia_2.jpg" alt="no se encuentra la imagen ">
+            <img class="imagen-noticia" src="../media/noticia_2.jpg" alt="no se encuentra la imagen ">
             <h3 class="cajas" > Assassin's Creed Mirage levanta revuelo con Focus, su habilidad más polémica</h4>
         </article>
     </main>
