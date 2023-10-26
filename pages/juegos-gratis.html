@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Media/icono-paginas.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Juegos Gratis</title>
@@ -20,38 +23,61 @@
         </div>
         <!--menu navegable entre paginas html, responsive con bootstrap --> 
         <div class="container-fluid pb-5">
-            <nav class="justify-content-center"> 
-                <ul class="nav text-center">
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
-                        <a class="font-size-menu box-main-menu" href="../pages/top10.html">Top 10</a><!--trabajar clase a para el estilo de las cajas-->
+            <nav class="justify-content-center">
+                <ul class="nav text-center" id="main-menu">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
+                        <a class="font-size-menu box-main-menu" href="./top10.html">Top 10</a>
                     </li>
                     <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
                         <a class="font-size-menu box-main-menu" href="#">Juegos Gratis</a>
                     </li>
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
-                        <a class="font-size-menu box-main-menu" href="../pages/juego-para-ti.html">Un juego para ti</a>
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
+                        <a class="font-size-menu box-main-menu" href="./juego-para-ti.html">Un juego para ti</a>
                     </li>
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
                         <a class="font-size-menu box-main-menu" href="./novedades.html">Novedades</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <h1 class="titulo-3">Juegos gratis de la Semana !!</h1>   
+        <div class="container">   
+            <div class="row">
+                <div class="col-md-12 text-center pb-5">
+                    <h1 class="box-titles "> Juegos gratis de la Semana !!</h1>
+                </div>
+            </div>
+        </div> 
     </header>
     <main>
-        <article>
-            <h2 class="store">Epic Games</h2>
-            <iframe  src="https://www.youtube.com/embed/LyNJEkRImmo?si=kkvjIP5igIXbnC_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h3 class="cajas" >"Un juego sobre el arduo trabajo de las personas que gestionan los servicios de emergencia. Responde a llamadas entrantes y reacciona adecuadamente: da instrucciones de primeros auxilios, asesora, despacha el número correcto de bomberos, policías o ambulancias, o a veces, simplemente ignora la llamada. ¡Juega en CUALQUIER CIUDAD del mundo!"</h3>     
-            <h3><a href="https://store.epicgames.com/es-ES/free-games">Reclamalo aqui!</a></h3>
-        </article>
-        <article>
-            <h2 class="store">Steam</h2>
-            <iframe  src="https://www.youtube.com/embed/y0BfcjytcJ0?si=Hmzyf2_cv_HFjP5C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h3 class="cajas" >"¡La rave continúa! 14 años después de su primera rave, el elefante ha regresado para un desafío monumental: evitar haces de luz muy, muy mortales."</h3>
-            <h3><a href="https://store.steampowered.com/app/950230/Elephant_Rave_2/">Reclamalo aqui!</a></h3>
-        </article>
+    <!--juegos gratis cada semana y donde reclamarlos-->
+        <div class="container-fluid">
+            <article class="row text-center">
+                <h2 class="col-lg-3 col-md-12 free-games">Epic Games</h2>
+                <div class="row justify-content-center" >
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <iframe  class="  iframe-size-top10" src="https://www.youtube.com/embed/nBPkGPR1mfw?si=eXUzP3FMLkV4fmBh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <h3 class="cajas">"El detective Sebastián Castellanos lo ha perdido todo, incluida su hija Lily. Para salvarla, debe descender al mundo de pesadilla de STEM. Amenazas terribles surgen de cada esquina y debe confiar en su ingenio para sobrevivir. Para redimirse, su única forma de salir es entrar."
+                        <a href="https://store.epicgames.com/es-ES/free-games" target="blank">                           Reclámalo aquí!</a></h3>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="container-fluid ">
+            <article class="row text-center">
+                <h2 class=" free-games col-lg-3 col-md-12">Steam</h2>
+                <div class="row justify-content-center" >
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <iframe class="  iframe-size-top10" src="https://www.youtube.com/embed/a4WwMVLyj_A?si=MejjaRnMCzqTFQY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <h3 class="cajas">Sumérgete en un videojuego de arte pixelado que combina emoción criminal, comedia romántica y la búsqueda del amor. Este juego narra la historia de un nuevo empleado persiguiendo a su jefa femenina. Si eres fan del amor, del yandere y no te importa un toque de emoción y crimen, disfrutarás mucho este juego.
+                       <a href="https://store.steampowered.com/app/2434340/BLACK_BOX_LSS/" target="blank">Reclámalo aquí!</a></h3>
+                    </div>
+                </div>
+            </article>
+        </div>
     </main>
     <footer>
         <h4>Todo los derechos reservados 2023©</h4>

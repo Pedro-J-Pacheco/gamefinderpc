@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+    .nav-padding{
+        margin-bottom: 35px; 
+    }
+    
+}  
+
+@media (max-width: 576px) {
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin: 10px 0 10px 0; 
+    }
+    .requisitos-top10 {
+        display: flex;
+        flex-direction: column;
+        align-items:end;
+    }
+}
+

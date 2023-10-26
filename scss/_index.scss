@@ -1,0 +1,64 @@
+.fondo{
+    background-color: #B58FDE;
+    font-family: 'Montserrat', sans-serif;
+    .logo {
+        width: 300px;
+        height: 300px;
+        padding: 25px; 
+    }
+    a {
+        text-decoration: none;
+        color: $link-color;
+    }
+    .font-size-menu{
+        font-size: 35px;
+    } 
+    h3{
+        color:$textos-color;
+    }
+    
+}
+h1 {
+    color: $color-titulos;
+}
+h2 {
+    color: $color-subtitles;
+    padding: 20px ;
+    }
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.list-requisitos{
+    width: 100%; 
+    max-width: 150px; 
+    font-size: 20px; 
+    padding: 6px;    
+}
+.list-space{
+    padding-bottom: 10px ;
+}
+.cajas{
+    height: 100%;
+    width: auto;
+    border: 2px solid #9754df;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: #bd8af4;
+}
+.free-games{
+    color: white;
+}
+
+
+button.btn-custom {
+    background-color: #F48ECE ; /* Cambia el color de fondo a un color personalizado */
+    color: $textos-color; /* Cambia el color del texto a blanco */
+    font-size: 18px; /* Cambia el tamaño del texto */
+    margin: 10px;
+    border: 1px solid #F48ECE; /* Cambia el margen */
+    /* Agrega más estilos personalizados aquí según tus necesidades */
+  }
+  
