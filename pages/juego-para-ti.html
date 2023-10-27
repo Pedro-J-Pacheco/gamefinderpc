@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encuentra tu juego de PC ideal según tus preferencias. ¡Obtén recomendaciones personalizadas en minutos!">
+    <meta name="keywords" content="Juegos recomendados,Encuentra tu juego perfecto,Selecciona tu juego,Descubre tu próximo juego">
     <link rel="shortcut icon" href="../Media/icono-paginas.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
          <div class="container-fluid pb-5 ">
             <div class="col-md-12 text-center">
                 <a href="../index.html">
-                    <img  class="logo" src="../media/Logo_sitio.png" alt="no se encuentra la imagen ">
+                    <img  class="logo" src="../media/Logo_sitio.png" alt="beagle jugando en una computadora portatil">
                 </a>
             </div>
         </div>
@@ -25,16 +27,16 @@
         <div class="container-fluid pb-5">
             <nav class="justify-content-center"> 
                 <ul class="nav text-center">
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding button-grow ">
                         <a class="font-size-menu box-main-menu" href="./top10.html">Top 10</a><!--trabajar clase a para el estilo de las cajas-->
                     </li>
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding button-grow">
                         <a class="font-size-menu box-main-menu" href="./juegos-gratis.html">Juegos Gratis</a>
                     </li>
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding button-grow ">
                         <a class="font-size-menu box-main-menu" href="#">Un juego para ti</a>
                     </li>
-                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding ">
+                    <li class="nav-item col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 nav-padding button-grow ">
                         <a class="font-size-menu box-main-menu" href="./novedades.html">Novedades</a>
                     </li>
                 </ul>
@@ -47,9 +49,10 @@
             <h2 class="cajas free-games">Vamos a recomendarte un juego según tus elecciones, así que responde el formulario y te daremos un juego que muy posiblemente te va gustar.</h2>
         </div>
     </div>
-
+    <!--pagina donde hay un formulario con bootstrap para recomedarte un juego segun tus gustos-->
     <main>
         <div class="container mt-5">
+            <div class=""></div>
             <form>
                 <div class="form-group">
                     <h2>Elige un género</h2>
@@ -67,26 +70,24 @@
                         <option>Puzles</option>
                     </select>
                 </div>
-              
-              <div class="form-group">
-                <h2>Cantidad de jugadores</h2>
-                <select class="form-control">
-                  <option>Un jugador</option>
-                  <option>Multijugador online</option>
-                  <option>Multijugador local</option>
-                  <option>Dos jugadores</option>
-                </select>
-              </div>
-        
-              <div class="form-group">
-                <h2>Requisitos del Juego</h2>
-                <select class="form-control">
-                  <option>Altos</option>
-                  <option>Medios</option>
-                  <option>Bajos</option>
-                  <option>patata</option>
-                </select>
-              </div>
+                <div class="form-group">
+                    <h2>Cantidad de jugadores</h2>
+                        <select class="form-control">
+                        <option>Un jugador</option>
+                        <option>Multijugador online</option>
+                        <option>Multijugador local</option>
+                        <option>Dos jugadores</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <h2>Requisitos del Juego</h2>
+                    <select class="form-control">
+                        <option>Altos</option>
+                        <option>Medios</option>
+                        <option>Bajos</option>
+                        <option>patata</option>
+                    </select>
+                </div>
                 <div class="form-group">
                     <h2>Presupuesto en USD</h2>
                     <select class="form-control">
@@ -107,6 +108,7 @@
                 </div> 
             </form>
         </div>
+        <!--resultado del juego -->
         <div class="container ">
             <div class="row justify-content-center text-center">
                 <h2 class="box-titles">Tu juegos es !!!</h2>

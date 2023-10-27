@@ -43,8 +43,8 @@ ul{
     width: auto;
     border: 2px solid #9754df;
     border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
+    padding: 10px 10px 10px 10px ;
+    margin: 5px;
     overflow: hidden;
     background-color: #bd8af4;
 }
@@ -54,11 +54,30 @@ ul{
 
 
 button.btn-custom {
-    background-color: #F48ECE ; /* Cambia el color de fondo a un color personalizado */
-    color: $textos-color; /* Cambia el color del texto a blanco */
-    font-size: 18px; /* Cambia el tamaño del texto */
+    background-color: #F48ECE ; 
+    color: $textos-color; 
+    font-size: 18px;
     margin: 10px;
-    border: 1px solid #F48ECE; /* Cambia el margen */
-    /* Agrega más estilos personalizados aquí según tus necesidades */
+    border: 1px solid #F48ECE; 
+   
+  }
+ .noticias-uno {
+    text-align: center; 
+  }
+  
+  .container-articulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .parrafo-noticia {
+    flex: 1;
+  }
+  
+  .imagen-noticia {
+    width: 50vw;
+    height: auto;
+    padding-bottom: 40px;
   }
   
